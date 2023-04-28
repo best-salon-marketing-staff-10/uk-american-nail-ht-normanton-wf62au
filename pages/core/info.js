@@ -78,8 +78,8 @@ const businessOpeningTimeInput = {
   satOpeningTime : "09:00",
   satClosingTime : "19:00",
 
-  sunOpeningTime : "10:00",
-  sunClosingTime : "16:00",
+  sunOpeningTime : "",
+  sunClosingTime : "",
 }
 
 const processedBusinessOpeningTime = {
@@ -91,48 +91,48 @@ const processedBusinessOpeningTime = {
   workingTimeThu : "Thursday: " + businessOpeningTimeInput.thuOpeningTime + "–" + businessOpeningTimeInput.thuClosingTime,
   workingTimeFri : "Friday: " + businessOpeningTimeInput.friOpeningTime + "–" + businessOpeningTimeInput.friClosingTime,
   workingTimeSat : "Saturday: " + businessOpeningTimeInput.satOpeningTime + "–" + businessOpeningTimeInput.satClosingTime,
-  workingTimeSun : "Sunday: " + businessOpeningTimeInput.sunOpeningTime + "–" + businessOpeningTimeInput.sunClosingTime,
+  workingTimeSun : "Sunday: Closed " + businessOpeningTimeInput.sunOpeningTime + "" + businessOpeningTimeInput.sunClosingTime,
 }
 
 
-const changedInfo = {
-  businessName: "Princess Nails Exeter",
-  businessAddressLevel1: "95 Fore Street",
-  businessAddressLevel2: "Exeter",
-  businessAddressLevel3: "Devon",
+const changedInfo = {   
+  businessName: "American Nails HT",
+  businessAddressLevel1: "13-14 Market Pl",
+  businessAddressLevel2: "Normanton",
+  businessAddressLevel3: "Wakefield",
   businessAddressLevel4: "England",
   businessCountry: "United Kingdom",
   businessGeoRegionCode: "GB",
 
   //Tra cứu tên thành phố trong https://www.geonames.org/GB/administrative-division-united-kingdom.html và điền vào mã code tương ứng
-  businessAddressDivisionCode: "DEV",
+  businessAddressDivisionCode: "WKF",
 
-  businessPostCode: "EX4 3HY",
+  businessPostCode: "WF6 2AU",
   
 
-  businessPhoneNumber: "01392 431988",
+  businessPhoneNumber: "01924891750",
 
   //Website tiệm KO có dấu / ở cuối
-  businessWebsite: "https://princess-nails-exeter.web.app",
+  businessWebsite: "",
 
-  linkBookingMap: "https://bit.ly/3R7tdI2",
-  linkBookingApp: "https://bit.ly/3NRmHSW",
-  linkToMap: "https://g.page/r/CTMvNCantXjkEBA",
+  linkBookingMap: "",
+  linkBookingApp: "",
+  linkToMap: "https://goo.gl/maps/v4YQt2UTs4rsjJYB7",
 
   
 
-  //Mở Google Maps tiệm, zoom sát vào, chuột phải 
-  geoLatitude: 50.72165291432293,
-  geoLongitude: -3.5336547035207144,
+  //Mở Google Maps tiệm, zoom sát vào, chuột phải   
+  geoLatitude: 53.700135308584045,
+  geoLongitude:  -1.4209235874191197,
 
   //Code xác minh của website trên Google Search
   metaGoogleSiteVerification: "",
 
-  //iframe map
-  iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d157.86945033478742!2d-3.533776515350408!3d50.721586479953295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486da43af0c1af77%3A0xe478b5a726342f33!2sPrincess%20nails%20Exeter!5e0!3m2!1sen!2sus!4v1681546039070!5m2!1sen!2sus",
+  //iframe map  
+  iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2362.0178487514077!2d-1.4209224999999999!3d53.70012789999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48796869476b3247%3A0x5bc395c060350678!2sAmerican%20Nails%20HT%20-Normanton!5e0!3m2!1sen!2sus!4v1682674445692!5m2!1sen!2sus",
 
   // Các ảnh của tiệm
-  ogImage:"https://i.ibb.co/dmKhmXW/og-image.jpg",
+  ogImage:"",
   icon:"/icon2.png",
   businessLogo:"/logo3.jpg",
 }
@@ -840,35 +840,40 @@ const images = {
   
   //Danh sách các dịch vụ
   const serviceList1 = {
+    //
     service1 : "Acrylic Fullset with normal nail polish",
     service1Time : "45 mins",
-    service1Price : "30",
+    service1Price : "25",
     service1Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
 
-  
+    //
     service2 : "Acrylic Infill with normal nail polish",
     service2Time : "35 mins",
-    service2Price : "25",
+    service2Price : "20",
     service2Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
   
+    //
     service3 : "Acrylic Full Set with Shellac",
     service3Time : "1 hr",
-    service3Price : "36",
+    service3Price : "30",
     service3Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
   
+    //
     service4 : "Acrylic Infill with Shellac",
     service4Time : "45 mins",
-    service4Price : "30",
+    service4Price : "25",
     service4Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
     
+    //
     service5 : "Gel Powder Full Set with normal nail polish",
     service5Time : "45 mins",
-    service5Price : "28",
+    service5Price : "30",
     service5Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
   
+    //
     service6 : "Gel Powder Infill with normal nail polish",
     service6Time : "45 mins",
-    service6Price : "20",
+    service6Price : "25",
     service6Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
   
     service7 : "Full Set Pink & White",
@@ -881,19 +886,22 @@ const images = {
     service8Price : "35",
     service8Description : "",
   
+    //
     service9 : "Full Set Ombre",
     service9Time : "45 mins",
-    service9Price : "40",
+    service9Price : "35",
     service9Description : "You could be the Queen of the Ombre nails, with the right technique. The technicians at our " + seoKeyword.seoKeyword2 + " will masterfully blend one color into another, creating a unique and beautiful look, and adding it to your finger tips.",
 
+    //
     service10 : "Infill Ombre",
     service10Time : "45 mins",
-    service10Price : "35",
+    service10Price : "30",
     service10Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
   
+    //
     service11 : "Full Set Colour Powder",
     service11Time : "45 mins",
-    service11Price : "40",
+    service11Price : "30",
     service11Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
   
     service12 : "Infill Colour Powder (Same Colour)",
@@ -981,19 +989,22 @@ const images = {
     service28Price : "3",
     service28Description : "",
 
+    //
     service29 : "Take off Acrylic and Redone Acrylic Fullset with normal nail polish",
     service29Time : "1 hr",
-    service29Price : "35",
+    service29Price : "30",
     service29Description : "",
 
+    //
     service30 : "Take off Acrylic and Redone Acrylic Fullset with Shellac",
     service30Time : "1 hr",
-    service30Price : "40",
+    service30Price : "35",
     service30Description : "",
 
+    //
     service31 : "Take off Ombre and Redone Ombre Fullset",
     service31Time : "1 hr",
-    service31Price : "45",
+    service31Price : "40",
     service31Description : "",
 
     service32 : "Dipping Powder SNS infill",
@@ -1021,9 +1032,10 @@ const images = {
     service36Price : "25",
     service36Description : "Take off powder and then do manicure",
 
+    //
     service37 : "Take off colour Powder and Redone a Newset",
     servicce37Time : "60 mins",
-    service37Price : "45",
+    service37Price : "35",
     service37Description : "",
 
     service38 : "Full set Acrylic French Tip",
@@ -1071,10 +1083,76 @@ const images = {
     service46Price : "35",
     service46Description : "",
 
+    //
     service47 : "Infill Colour Powder",
     service47Time : "45 mins",
-    service47Price : "35",
+    service47Price : "25",
     service47Description : "",
+
+    //
+    service48: "Full set Overlay with normal nail polish",
+    service48Time : "30 mins",
+    service48Price : "25",
+    service48Description : "",
+
+    //
+    service49: "Infill Overlay with normal nail polish",
+    service49Time : "30 mins",
+    service49Price : "20",
+    service49Description : "",
+
+    //
+    service50 : "Take off Overlay and Redone a Newset with normal nail polish",
+    service50Time : "45 mins",
+    service50Price : "30",
+    service50Description : "",
+
+    //
+    service51 : "Take off Gel Powder and Redone a Newset",
+    service51Time : "1 hr",
+    service51Price : "33",
+    service51Description: "",
+
+    //
+    service52 : "Full set Overlay with Gel polish",
+    service52Time : "45 mins",
+    service52Price : "30",
+    service52Description : "",
+
+    //
+    service53 : "Infill Overlay with Gel polish",
+    service53Time : "40 mins",
+    service53Price : "25",
+    service53Description : "",
+
+    //
+    service54 : "Take off Overlay and Redone a Newset with Gel polish",
+    service54Time : "1 hr 15 mins",
+    service54Price : "35",
+    service54Description : "",
+
+    //
+    service55 : "Full set Glitter Powder",
+    service55Time : "45 mins",
+    service55Price : "33",
+    service55Description : "",
+
+    //
+    service56 : "Infill Glitter Powder",
+    service56Time : "40 mins",
+    service56Price : "27",
+    service56Description : "",
+
+    //
+    service57: "Take off Glitter Powder and Redone a Newset",
+    service57Time : "60 mins",
+    service57Price : "38",
+    service57Description : "",
+    
+
+
+
+
     }; 
   
   const serviceList2 = {
