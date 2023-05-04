@@ -840,37 +840,31 @@ const images = {
   
   //Danh sách các dịch vụ
   const serviceList1 = {
-    //
     service1 : "Acrylic Fullset with normal nail polish",
     service1Time : "45 mins",
     service1Price : "25",
     service1Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
 
-    //
     service2 : "Acrylic Infill with normal nail polish",
     service2Time : "35 mins",
     service2Price : "20",
     service2Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
   
-    //
     service3 : "Acrylic Full Set with Shellac",
     service3Time : "1 hr",
     service3Price : "30",
     service3Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
-  
-    //
+ 
     service4 : "Acrylic Infill with Shellac",
     service4Time : "45 mins",
     service4Price : "25",
     service4Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
-    
-    //
+
     service5 : "Gel Powder Full Set with normal nail polish",
     service5Time : "45 mins",
     service5Price : "30",
     service5Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
-  
-    //
+
     service6 : "Gel Powder Infill with normal nail polish",
     service6Time : "45 mins",
     service6Price : "25",
@@ -885,20 +879,17 @@ const images = {
     service8Time : "45 mins",
     service8Price : "35",
     service8Description : "",
-  
-    //
+
     service9 : "Full Set Ombre",
     service9Time : "45 mins",
     service9Price : "35",
     service9Description : "You could be the Queen of the Ombre nails, with the right technique. The technicians at our " + seoKeyword.seoKeyword2 + " will masterfully blend one color into another, creating a unique and beautiful look, and adding it to your finger tips.",
 
-    //
     service10 : "Infill Ombre",
     service10Time : "45 mins",
     service10Price : "30",
     service10Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
-  
-    //
+ 
     service11 : "Full Set Colour Powder",
     service11Time : "45 mins",
     service11Price : "30",
@@ -963,15 +954,15 @@ const images = {
     service23Time : "45 mins",
     service23Price : "36",
     service23Description : "SNS Dipping Powder creates a stronger polish finish which can help strengthen brittle or weak nails.",
-  
-    service24 : "BIAB buider gel Fullset",
+
+    service24 : "BIAB builder gel Fullset",
     service24Time : "35 mins",
-    service24Price : "37",
+    service24Price : "25",
     service24Description : "",
-  
-    service25 : "BIAB buider gel Infill",
+ 
+    service25 : "BIAB builder gel Infill",
     service25Time : "30 mins",
-    service25Price : "30",
+    service25Price : "23",
     service25Description : "",
 
     service26 : "Long nails extra",
@@ -989,19 +980,16 @@ const images = {
     service28Price : "3",
     service28Description : "",
 
-    //
     service29 : "Take off Acrylic and Redone Acrylic Fullset with normal nail polish",
     service29Time : "1 hr",
     service29Price : "30",
     service29Description : "",
 
-    //
     service30 : "Take off Acrylic and Redone Acrylic Fullset with Shellac",
     service30Time : "1 hr",
     service30Price : "35",
     service30Description : "",
 
-    //
     service31 : "Take off Ombre and Redone Ombre Fullset",
     service31Time : "1 hr",
     service31Price : "40",
@@ -1032,7 +1020,6 @@ const images = {
     service36Price : "25",
     service36Description : "Take off powder and then do manicure",
 
-    //
     service37 : "Take off colour Powder and Redone a Newset",
     servicce37Time : "60 mins",
     service37Price : "35",
@@ -1083,72 +1070,147 @@ const images = {
     service46Price : "35",
     service46Description : "",
 
-    //
     service47 : "Infill Colour Powder",
     service47Time : "45 mins",
     service47Price : "25",
     service47Description : "",
 
-    //
-    service48: "Full set Overlay with normal nail polish",
+    service48: "Full set Overlay with no color",
     service48Time : "30 mins",
     service48Price : "25",
     service48Description : "",
 
-    //
-    service49: "Infill Overlay with normal nail polish",
+    service49: "Infill Overlay with no color",
     service49Time : "30 mins",
     service49Price : "20",
     service49Description : "",
 
-    //
-    service50 : "Take off Overlay and Redone a Newset with normal nail polish",
+    service50 : "Take off Overlay and Redone a Newset ",
     service50Time : "45 mins",
     service50Price : "30",
     service50Description : "",
 
-    //
     service51 : "Take off Gel Powder and Redone a Newset",
     service51Time : "1 hr",
     service51Price : "33",
-    service51Description: "",
+    service51Description: "No nail polish",
 
-    //
     service52 : "Full set Overlay with Gel polish",
     service52Time : "45 mins",
     service52Price : "30",
     service52Description : "",
 
-    //
     service53 : "Infill Overlay with Gel polish",
     service53Time : "40 mins",
     service53Price : "25",
     service53Description : "",
 
-    //
     service54 : "Take off Overlay and Redone a Newset with Gel polish",
     service54Time : "1 hr 15 mins",
     service54Price : "35",
     service54Description : "",
 
-    //
     service55 : "Full set Glitter Powder",
     service55Time : "45 mins",
     service55Price : "33",
     service55Description : "",
 
-    //
     service56 : "Infill Glitter Powder",
     service56Time : "40 mins",
     service56Price : "27",
     service56Description : "",
 
-    //
     service57: "Take off Glitter Powder and Redone a Newset",
     service57Time : "60 mins",
     service57Price : "38",
     service57Description : "",
-    
+
+    service58: "Full set Cateye Effect",
+    service58Time: "45 mins",
+    service58Price: "35",
+    service58Description : "",
+
+    service59: "Infill Cateye Effect",
+    service59Time: "40 mins",
+    service59Price: "30",
+    service59Description : "",
+
+    service60: "Take off Cateye Effect and Redone a Newset",
+    service60Time : "60 mins",
+    service60Price : "40",
+    service60Description: "",
+
+    service61: "Full set Chrome",
+    service61Time : "45 mins",
+    service61Price : "35",
+    service61Description : "",
+
+    service62: "Acrylic Fullset with no color",
+    service62Time : "35 mins",
+    service62Price : "25",
+    service62Description : "",
+
+    service63 : "Acrylic Infill with no color",
+    service63Time : "30 mins",
+    service63Price : "20",
+    service63Description : "",
+
+    service64 : "Gel Powder Full Set with no color",
+    service64Time : "45 mins",
+    service64Price : "30",
+    service64Description : "",
+
+    service65 : "Gel Powder Infill with no color",
+    service65Time : "45 mins",
+    service65Price : "25",
+    service65Description : "",
+
+    service66 : "Take off Acrylic and Redone a Newset with no color",
+    service66Time : "1 hr",
+    service66Price : "30",
+    service66Description : "",
+
+    service67: "Infill Chrome",
+    service67Time : "40 mins",
+    service67Price : "30",
+    service67Description : "",
+
+    service68: "Take off Chrome and Redone a Newset",
+    service68Time : "60 mins",
+    service68Price : "40",
+    service68Description : "",
+
+    service69: "Take off BIAB gel and Redone a Newset",
+    service69Time : "50 mins",
+    service69Price: "30",
+    service69Description : "",
+
+    service70: "Full set Toe",
+    service70Time : "45 mins",
+    service70Price : "30",
+    service70Description : "No nail polish",
+
+    service71: "Infill Toe",
+    service71Time : "40 mins",
+    service71Price : "28",
+    service71Description : "No nail polish",
+
+    service72: "Take off Toe nail and Redone a Newset",
+    service72Time: "60 mins",
+    service72Price: "35",
+    service72Description : "No nail polish",
+
+    service73 : "Take off Acrylic",
+    service73Time : "20 mins",
+    service73Price : "10",
+    service73Description : "",
+
+    service74: "Big Toe Extension x2",
+    service74Time : "20 mins",
+    service74Price : "8",
+    service74Description : "",
+
+
 
 
 
@@ -1158,22 +1220,22 @@ const images = {
   const serviceList2 = {
     service1 : "Nail shape with Shellac nails on hand",
     service1Time : "30 mins",
-    service1Price : "22",
+    service1Price : "20",
     service1Description : "",
-  
+ 
     service2 : "Nail shape with Shellac nails on feet",
     service2Time : "30 mins",
-    service2Price : "22",
+    service2Price : "20",
     service2Description : "",
-  
+
     service3 : "Manicure Shellac",
     service3Time : "40 mins",
-    service3Price : "30",
+    service3Price : "25",
     service3Description : "Manicures are a difficult art to master. No matter how great they look when finished, they seem to always chip within days, if not in a matter of hours. Enter the Gel nail manicure - a groundbreaking technique that uses gel polishes that get 'cured' under UV lights. The result? Shiny, strong nails for weeks and no drying time!",
-  
+
     service4 : "Pedicure Shellac",
     service4Time : "40 mins",
-    service4Price : "35",
+    service4Price : "32",
     service4Description : "Please bring Flip Flops/Sandals. Highly recommended with Gel Colour. Last longer and less likely to chip! Fries instantly so you don't have to worry about smudging it.",
   
     service5 : "Gel Polish Manicure & Pedicure",
@@ -1190,10 +1252,10 @@ const images = {
     service7Time : "40 mins",
     service7Price : "25",
     service7Description : "",
-  
+    
     service8 : "Take off shellac",
     service8Time : "20 mins",
-    service8Price : "8",
+    service8Price : "5",
     service8Description : "Just take off shellac",
 
     service9 : "Take off shellac and Redone Normal Polish on Hand",
@@ -1293,6 +1355,18 @@ const images = {
     service17Time : "90 mins",
     service17Price : "70",
     service17Description : "Your feet & hand have been longawaiting for rejuvenating pedicure & manicure. Say ahh… to a warm whirlpool soaking with Mineral Herbal Bath. Then a gentle massage and Walnut Husk Liquid Body Lufra exfoliation.While regular pedicure components are tented, a calf massage with the Invigorating Icedancer and steamy towel wrap are added for restoring vitality and energizing the legs. Dry heel are also treated with an all Spice Berry Sole Solution. Finish with a soft yet intense hydrating Baobab Body Butter for an ultimate experience",
+
+    //
+    service18: "Manicure",
+    service18Time : "20 mins",
+    service18Price : "15",
+    service18Description : "",
+    
+    //
+    service19: "Pedicure",
+    service19Time : "30 mins",
+    service19Price : "25",
+    service19Description : "",
   };
   
   const serviceList4 = {
@@ -1322,11 +1396,13 @@ const images = {
     service5Description : "",
   }; 
   const serviceList5 = {
+    //
     service1 : "Nail Design (from)",
     service1Time : "",
-    service1Price : "5",
+    service1Price : "3",
     service1Description : "The best looking nails are made with the best nail care services from our " + seoKeyword.seoKeyword1 +". Caring for your surface is the key to keeping it looking good for as long as possible. So come on over and treat yourself today.⁣",
   
+    //
     service2 : "Diamond Crystal x10",
     service2Time : "",
     service2Price : "3",
@@ -1341,6 +1417,13 @@ const images = {
     service4Time : "",
     service4Price : "5",
     service4Description : "",
+
+    //
+    service5 : "Change colour",
+    service5Time : "",
+    service5Price : "10",
+    service5Description : "",
+
 
   }; 
   
