@@ -76,7 +76,7 @@ const businessOpeningTimeInput = {
   friClosingTime : "19:00",
 
   satOpeningTime : "09:00",
-  satClosingTime : "19:00",
+  satClosingTime : "18:30",
 
   sunOpeningTime : "",
   sunClosingTime : "",
@@ -113,10 +113,10 @@ const changedInfo = {
   businessPhoneNumber: "01924891750",
 
   //Website tiệm KO có dấu / ở cuối
-  businessWebsite: "",
+  businessWebsite: "https://americannailsnormanton.web.app",
 
   linkBookingMap: "",
-  linkBookingApp: "",
+  linkBookingApp: "https://bit.ly/3LU07v6",
   linkToMap: "https://goo.gl/maps/v4YQt2UTs4rsjJYB7",
 
   
@@ -132,9 +132,9 @@ const changedInfo = {
   iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2362.0178487514077!2d-1.4209224999999999!3d53.70012789999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48796869476b3247%3A0x5bc395c060350678!2sAmerican%20Nails%20HT%20-Normanton!5e0!3m2!1sen!2sus!4v1682674445692!5m2!1sen!2sus",
 
   // Các ảnh của tiệm
-  ogImage:"",
-  icon:"/icon2.png",
-  businessLogo:"/logo3.jpg",
+  ogImage:"https://americannailsnormanton.web.app/images/desktop-nail-salon-happy-customer-1.jpg",
+  icon:"/icon.jpg",
+  businessLogo:"/logo.jpg",
 }
 
 const menu = {
@@ -431,9 +431,9 @@ const schemaInput = {
 
   schemaPriceRange: "££",
   //Cần đổi tên khách
-  schemaPersonReviewAuthorName: "Karolina Hamilton",
+  schemaPersonReviewAuthorName: "Selina Flemming",
   //Xem điểm review trung bình của tiệm là bao nhiêu
-  schemaRatingValue: "4.6",
+  schemaRatingValue: "5",
   schemaBestRating: "5",
 
   schemaGeoLatitude: 50.721704169283726,
@@ -735,7 +735,7 @@ const images = {
 
   section6Image1 : "/images/nail-extension-2.jpg",
 
-  section7Image1 : "/images/nail-extension-3-1.jpg",
+  section7Image1 : "/images/nail-extension-3.jpg",
   section7Image2 : "/images/nail-extension-4.jpg",
 
   LocationImage1 : "/images/nail-extension-11.jpg",
@@ -821,9 +821,9 @@ const images = {
   //Ảnh customer review - customer-review.js
   cusReviewImage1 : "/images/nail-salon-customer-review-1.jpg",
   cusReviewImage2 : "/images/nail-salon-customer-review-2.jpg",
-  cusReviewImage3 : "/images/nail-salon-customer-review-3.jpg",
-  cusReviewImage4 : "/images/nail-salon-customer-review-4.jpg",
-  cusReviewImage5 : "/images/nail-salon-customer-review-5.jpg",
+  cusReviewImage3 : "/images/nail-salon-customer-review-3.JPG",
+  cusReviewImage4 : "/images/nail-salon-customer-review-4.JPG",
+  cusReviewImage5 : "/images/nail-salon-customer-review-5.JPG",
 
 
   //Ảnh Footer
@@ -958,12 +958,12 @@ const images = {
     service24 : "BIAB builder gel Fullset",
     service24Time : "35 mins",
     service24Price : "25",
-    service24Description : "",
+    service24Description : "This service will leave your nails looking stunning and fabulous, making you feel confident and beautiful. The BIAB builder gel creates a long-lasting and durable finish for your nails, perfect for those who desire low maintenance and chip-free nails. Our skilled technicians will carefully apply the builder gel to create the look you desire, leaving you with salon-quality nails that will last for weeks. So, why not treat yourself and embrace the feeling of self-love by booking a BIAB Builder Gel Fullset today!",
  
     service25 : "BIAB builder gel Infill",
     service25Time : "30 mins",
     service25Price : "23",
-    service25Description : "",
+    service25Description : "Our gentle and skilled technicians will ensure your nails receive the ultimate pampering, leaving them looking and feeling revitalized. Say goodbye to chips, cracks, and brittle nails, and hello to the confidence that comes with having beautiful and healthy nails. Give yourself the gift of self-care and love, and let us take care of the rest. Book your appointment today and fall in love with your nails all over again!",
 
     service26 : "Long nails extra",
     service26Time : "",
@@ -978,7 +978,7 @@ const images = {
     service28 : "Single nails repair",
     service28Time : "",
     service28Price : "3",
-    service28Description : "",
+    service28Description : "Our talented technicians will expertly fix any imperfections, leaving your nails looking and feeling beautiful again. You deserve to feel confident and stylish with every step you take, and we are here to make sure that happens.",
 
     service29 : "Take off Acrylic and Redone Acrylic Fullset with normal nail polish",
     service29Time : "1 hr",
@@ -1020,10 +1020,10 @@ const images = {
     service36Price : "25",
     service36Description : "Take off powder and then do manicure",
 
-    service37 : "Take off colour Powder and Redone a Newset",
+    service37 : "Take off Colour Powder and Redone a Newset",
     servicce37Time : "60 mins",
     service37Price : "35",
-    service37Description : "",
+    service37Description : "The ultimate treat for your nails! Let us pamper you with a luxurious experience as we remove your old powder and replace it with a new and vibrant shade. Our experienced technicians will make sure your nails look stunning and feel great, making you fall in love with your own hands again. This service is perfect for those who want to switch up their nail game and add a pop of color to their daily routine. Trust us, with this service, you'll feel confident and beautiful, ready to take on the world with a new-found love for yourself!",
 
     service38 : "Full set Acrylic French Tip",
     service38Time : "45 mins",
@@ -1045,6 +1045,7 @@ const images = {
     service41Price : "45",
     service41Description : "",
 
+    //
     service42 : " ",
     service42Time : "30 mins",
     service42Price : "20",
@@ -1075,12 +1076,12 @@ const images = {
     service47Price : "25",
     service47Description : "",
 
-    service48: "Full set Overlay with no color",
+    service48: "Full set Overlay ",
     service48Time : "30 mins",
     service48Price : "25",
     service48Description : "",
 
-    service49: "Infill Overlay with no color",
+    service49: "Infill Overlay ",
     service49Time : "30 mins",
     service49Price : "20",
     service49Description : "",
@@ -1093,7 +1094,7 @@ const images = {
     service51 : "Take off Gel Powder and Redone a Newset",
     service51Time : "1 hr",
     service51Price : "33",
-    service51Description: "No nail polish",
+    service51Description: "",
 
     service52 : "Full set Overlay with Gel polish",
     service52Time : "45 mins",
@@ -1110,72 +1111,72 @@ const images = {
     service54Price : "35",
     service54Description : "",
 
-    service55 : "Full set Glitter Powder",
+    service55 : "Full Set Glitter Powder",
     service55Time : "45 mins",
     service55Price : "33",
-    service55Description : "",
+    service55Description : "Treat yourself to a dazzling look with our nail salon service! Perfect for adding some sparkle to your life, our professional nail technicians will pamper you from start to finish, giving you a set of nails that will have you feeling confident and glamorous. With our feminine touch, we will bring out the best in you, making you feel pampered and adored. Whether you're looking to make a statement or just add a touch of glamour to your everyday look, our Full Set Glitter Powder is the perfect choice. So why wait? Book your appointment today and love your beautiful nails!",
 
     service56 : "Infill Glitter Powder",
     service56Time : "40 mins",
     service56Price : "27",
-    service56Description : "",
+    service56Description : "Unleash your inner sparkle with our nails service. Perfect for adding a touch of glamour to your already fabulous look, our expert technicians will carefully infill your nails with the latest in glitter powder technology, giving you a stunning, attention-grabbing manicure that you'll absolutely adore. Embrace your feminine side and love the way you feel with our nails service.",
 
     service57: "Take off Glitter Powder and Redone a Newset",
     service57Time : "60 mins",
     service57Price : "38",
     service57Description : "",
 
-    service58: "Full set Cateye Effect",
+    service58: "Full set with Cateye Effect",
     service58Time: "45 mins",
     service58Price: "35",
     service58Description : "",
 
-    service59: "Infill Cateye Effect",
+    service59: "Infill with Cateye Effect",
     service59Time: "40 mins",
     service59Price: "30",
     service59Description : "",
 
-    service60: "Take off Cateye Effect and Redone a Newset",
+    service60: "Take off Fullset with Cateye Effect and Redone a Newset",
     service60Time : "60 mins",
     service60Price : "40",
     service60Description: "",
 
-    service61: "Full set Chrome",
+    service61: "Full set with Chrome",
     service61Time : "45 mins",
     service61Price : "35",
     service61Description : "",
 
-    service62: "Acrylic Fullset with no color",
+    service62: "Full set Acrylic Powder",
     service62Time : "35 mins",
     service62Price : "25",
     service62Description : "",
 
-    service63 : "Acrylic Infill with no color",
+    service63 : "Infill Acrylic Powder",
     service63Time : "30 mins",
     service63Price : "20",
     service63Description : "",
 
-    service64 : "Gel Powder Full Set with no color",
+    service64 : "Gel Powder Full Set ",
     service64Time : "45 mins",
     service64Price : "30",
     service64Description : "",
 
-    service65 : "Gel Powder Infill with no color",
+    service65 : "Gel Powder Infill ",
     service65Time : "45 mins",
     service65Price : "25",
     service65Description : "",
 
-    service66 : "Take off Acrylic and Redone a Newset with no color",
+    service66 : "Take off Acrylic and Redone a Newset ",
     service66Time : "1 hr",
     service66Price : "30",
     service66Description : "",
 
-    service67: "Infill Chrome",
+    service67: "Infill with Chrome",
     service67Time : "40 mins",
     service67Price : "30",
     service67Description : "",
 
-    service68: "Take off Chrome and Redone a Newset",
+    service68: "Take off Fullset with Chrome and Redone a Newset",
     service68Time : "60 mins",
     service68Price : "40",
     service68Description : "",
@@ -1183,27 +1184,27 @@ const images = {
     service69: "Take off BIAB gel and Redone a Newset",
     service69Time : "50 mins",
     service69Price: "30",
-    service69Description : "",
+    service69Description : "Our expert technicians will expertly remove your old manicure and replace it with a brand new BIAB gel manicure that will leave your nails looking and feeling refreshed. We understand the importance of self-care and making time for yourself, and our service will help you love and appreciate yourself even more. Our nurturing and personalized approach will make you feel pampered and confident, so why wait? Book your appointment now and experience the ultimate nail transformation.",
 
     service70: "Full set Toe",
     service70Time : "45 mins",
     service70Price : "30",
-    service70Description : "No nail polish",
+    service70Description : "",
 
     service71: "Infill Toe",
     service71Time : "40 mins",
     service71Price : "28",
-    service71Description : "No nail polish",
+    service71Description : "",
 
     service72: "Take off Toe nail and Redone a Newset",
     service72Time: "60 mins",
     service72Price: "35",
-    service72Description : "No nail polish",
+    service72Description : "",
 
     service73 : "Take off Acrylic",
     service73Time : "20 mins",
     service73Price : "10",
-    service73Description : "",
+    service73Description : "Say hello to a refreshed and rejuvenated look for your nails. Our expert technicians will gently remove your old acrylic, leaving your nails feeling revitalized. Embrace the love and care you deserve with our gentle, yet effective, process.",
 
     service74: "Big Toe Extension x2",
     service74Time : "20 mins",
@@ -1221,23 +1222,13 @@ const images = {
     service1 : "Nail shape with Shellac nails on hand",
     service1Time : "30 mins",
     service1Price : "20",
-    service1Description : "",
+    service1Description : "Let us transform your nails into perfectly shaped works of art, while long-lasting Shellac polish adds a pop of vibrant color to your fingertips. You'll feel confident and beautiful with every hand gesture, making you fall in love with yourself all over again.",
  
     service2 : "Nail shape with Shellac nails on feet",
     service2Time : "30 mins",
     service2Price : "20",
-    service2Description : "",
+    service2Description : "Our expert technicians will shape and polish your toes to perfection, leaving you with beautifully polished and well-groomed feet. With the long-lasting, chip-resistant Shellac polish, you can enjoy your stunning feet for weeks to come. Give yourself the gift of self-care and feel confident and stylish with every step.",
 
-    service3 : "Manicure Shellac",
-    service3Time : "40 mins",
-    service3Price : "25",
-    service3Description : "Manicures are a difficult art to master. No matter how great they look when finished, they seem to always chip within days, if not in a matter of hours. Enter the Gel nail manicure - a groundbreaking technique that uses gel polishes that get 'cured' under UV lights. The result? Shiny, strong nails for weeks and no drying time!",
-
-    service4 : "Pedicure Shellac",
-    service4Time : "40 mins",
-    service4Price : "32",
-    service4Description : "Please bring Flip Flops/Sandals. Highly recommended with Gel Colour. Last longer and less likely to chip! Fries instantly so you don't have to worry about smudging it.",
-  
     service5 : "Gel Polish Manicure & Pedicure",
     service5Time : "1 hr 25 mins",
     service5Price : "60",
@@ -1252,7 +1243,7 @@ const images = {
     service7Time : "40 mins",
     service7Price : "25",
     service7Description : "",
-    
+
     service8 : "Take off shellac",
     service8Time : "20 mins",
     service8Price : "5",
@@ -1356,17 +1347,25 @@ const images = {
     service17Price : "70",
     service17Description : "Your feet & hand have been longawaiting for rejuvenating pedicure & manicure. Say ahh… to a warm whirlpool soaking with Mineral Herbal Bath. Then a gentle massage and Walnut Husk Liquid Body Lufra exfoliation.While regular pedicure components are tented, a calf massage with the Invigorating Icedancer and steamy towel wrap are added for restoring vitality and energizing the legs. Dry heel are also treated with an all Spice Berry Sole Solution. Finish with a soft yet intense hydrating Baobab Body Butter for an ultimate experience",
 
-    //
     service18: "Manicure",
     service18Time : "20 mins",
     service18Price : "15",
     service18Description : "",
-    
-    //
+
     service19: "Pedicure",
     service19Time : "30 mins",
     service19Price : "25",
     service19Description : "",
+
+    service20 : "Manicure Shellac",
+    service20Time : "40 mins",
+    service20Price : "25",
+    service20Description : "Manicures are a difficult art to master. No matter how great they look when finished, they seem to always chip within days, if not in a matter of hours. Enter the Gel nail manicure - a groundbreaking technique that uses gel polishes that get 'cured' under UV lights. The result? Shiny, strong nails for weeks and no drying time!",
+
+    service21 : "Pedicure Shellac",
+    service21Time : "40 mins",
+    service21Price : "32",
+    service21Description : "Please bring Flip Flops/Sandals. Highly recommended with Gel Colour. Last longer and less likely to chip! Fries instantly so you don't have to worry about smudging it.",
   };
   
   const serviceList4 = {
@@ -1396,17 +1395,15 @@ const images = {
     service5Description : "",
   }; 
   const serviceList5 = {
-    //
     service1 : "Nail Design (from)",
     service1Time : "",
     service1Price : "3",
     service1Description : "The best looking nails are made with the best nail care services from our " + seoKeyword.seoKeyword1 +". Caring for your surface is the key to keeping it looking good for as long as possible. So come on over and treat yourself today.⁣",
-  
-    //
+
     service2 : "Diamond Crystal x10",
     service2Time : "",
     service2Price : "3",
-    service2Description : "",
+    service2Description : "Allow us to pamper your nails with an extra sparkle and shine. The diamond-like crystals will leave your nails looking stunning and unique, sure to make you feel confident and beautiful. Embrace your feminine side and love the skin you're in with this elegant and sophisticated addition to your nails",
 
     service3 : "3D nail art (from)",
     service3Time : "",
@@ -1418,7 +1415,6 @@ const images = {
     service4Price : "5",
     service4Description : "",
 
-    //
     service5 : "Change colour",
     service5Time : "",
     service5Price : "10",

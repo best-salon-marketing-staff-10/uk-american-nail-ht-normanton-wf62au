@@ -255,8 +255,7 @@
   .services-list-4,
   .services-list-6,
   .services-list-7,
-  .offers,
-  .customer-review{
+  .offers{
     display: none;
   }
   /*Các list dịch vụ hiển thị cần phải cách nhau 1 khoảng
@@ -961,7 +960,7 @@
       margin-right: 10px; 
     }
     .customer-review-carousel-image{
-      max-width: 480px;
+      max-width: 100%;
     }
     .customer-review-description{
       text-align: center;
@@ -1066,4 +1065,8 @@
     font-size: 20px;
   }
 
+  .desktop-about-us-carousel-image,
+  .carousel-image-1{
+    display: none;
+  }
   
