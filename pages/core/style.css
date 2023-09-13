@@ -150,7 +150,7 @@
   .price-list-details-services-name{
     color: #8A94A6;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 21px;
     margin: auto;
     margin-top: 5px;
   }
@@ -162,7 +162,7 @@
     font-size: 15px;
   }
   .price-list-details-services-description{
-    font-size: 15px;
+    font-size: 17px;
   }
   .price-list-details-services-price{
     color: #8A94A6;
@@ -759,7 +759,7 @@
     .nhan-manh-content-description{
       font-family: Noto Sans;
       margin-bottom: 15px;
-      font-size: 20px;
+      font-size: 22px;
     }
   /*Phần Nhấn Mạnh 4
   */
@@ -802,7 +802,7 @@
     }
     .nhan-manh-4-content-description{
       font-family: Noto Sans;
-      font-size: 20px;
+      font-size: 21px;
       margin-bottom: 25px;
     }
     .nhan-manh-4-content-1-wrapper{
